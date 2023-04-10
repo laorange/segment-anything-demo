@@ -1,4 +1,4 @@
-# Segment Anything Demo
+# [Segment Anything Demo](https://github.com/facebookresearch/segment-anything)
 
 > **[Meta AI Research, FAIR](https://ai.facebook.com/research/)**
 >
@@ -16,11 +16,8 @@
 
 2. 下载 `.pth` 文件，并放置于 `./model/` 文件夹下。
 
-   - [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)；
+   - [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) (default)；
 
-   - 若要使用其他模型，可前往 [model-checkpoints](https://github.com/facebookresearch/segment-anything#model-checkpoints) 下载，并修改[模型名称](https://github.com/laorange/segment-anything-demo/blob/f22d2e37badbafbde8d885371f6bf360f3eeea73/main.py#L40-L41)。
+   - 若要使用其他模型，可前往 [model-checkpoints](https://github.com/facebookresearch/segment-anything#model-checkpoints) 下载，并修改[模型名称](https://github.com/laorange/segment-anything-demo/blob/master/main.py#L25-L26)。
 
 3. 运行程序
-
-
-
